@@ -92,7 +92,7 @@
   margin-top: 100px;
 }
 
-.more-h1 {
+.more h2 {
   text-align: center;
   margin-top: 3em;
   font-size: 60px;
@@ -103,7 +103,7 @@
   text-align: center;
 }
 
-.more-h1:hover, .dots:hover {
+.more h2:hover, .dots:hover {
   cursor: pointer;
 }
 
@@ -132,16 +132,18 @@
   margin-top: 200px;
 }
 
-.about-me {
+.about-me, .gallery {
   text-align: center;
 }
 
 .about-me h1 {
   font-size: 50px;
+  color: #132743;
 }
 
 .about p {
   padding-top: 6em;
+  color: #132743;
 }
 
 .contact {
@@ -171,7 +173,7 @@
   text-align: center;
 }
 
-.contact-me h1 {
+.contact-me h1, .gallery h1 {
   color: #132743;
   font-size: 48px;
 }
@@ -207,4 +209,8 @@ input[type=submit]:hover {
   padding: 20px;
   margin-top: 30px;
   height: 500px;
+}
+
+.gallery h1 {
+  margin-top: 3em;
 }
