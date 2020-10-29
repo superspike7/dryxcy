@@ -142,8 +142,10 @@
 }
 
 .about p {
-  padding-top: 6em;
+  margin-top: 2em;
   color: #132743;
+  font-size: 1.3em;
+  text-align: left;
 }
 
 .contact {
